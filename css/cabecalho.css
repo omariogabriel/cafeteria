@@ -1,0 +1,20 @@
+.cabecalho {
+    background-color: var(--marrom-escuro);
+    width: 100%;
+
+    text-align: center;
+    padding: 1.3rem 0;
+
+    
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--fonte-detalhe);
+    font-size: 1.5rem;
+}
+
+.navegacao {
+    display: none;
+}
