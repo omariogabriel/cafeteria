@@ -1,7 +1,7 @@
 :root {
-    --fonte-texto: 'Montserrat', sans-serif;
-    --fonte-titulo: 'Open Sans', sans-serif;
-    --fonte-detalhe: 'Poppins', sans-serif;
+    --fonte-principal: "Poppins";
+    --fonte-secundario: "Josefin Sans";
+    
 
     --marrom-escuro: #341d08;
     --marrom-claro: #c08457;
@@ -9,9 +9,10 @@
 }
 
 body {
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-principal);
 }
 
 .container {
-    padding: 0 6%;
+   padding-left: 6%;
+   padding-right: 6%;
 }

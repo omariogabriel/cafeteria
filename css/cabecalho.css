@@ -1,17 +1,22 @@
 .cabecalho {
     background-color: var(--marrom-escuro);
-    width: 100%;
-
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1.3rem 0;
+}
 
-    
+.cabecalho-icone {
+    width: 30px;
+    height: 30px;
+    padding-right: .5rem;
 }
 
 .logo {
     text-decoration: none;
     color: var(--branco);
-    font-family: var(--fonte-detalhe);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
     font-size: 1.5rem;
 }
 

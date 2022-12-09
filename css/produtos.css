@@ -1,0 +1,48 @@
+.produtos {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.produtos-titulo {
+    text-align: center;
+    
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: var(--fonte-secundario);
+    text-transform: uppercase;
+
+    padding-bottom: 1.3rem;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-produtos-item {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--marrom-claro);
+    border-radius: 5px;
+}
+
+.lista-produtos-imagem {
+    text-align: center;
+    width: 100%;
+    
+}
+
+.lista-produto-titulo {
+    font-family: var(--fonte-secundario);
+    font-weight: 700;
+    font-size: 1.13rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.lista-produto-descricao {
+    font-family: var(--fonte-principal);
+    font-size: 0.9rem;
+}
+
+
