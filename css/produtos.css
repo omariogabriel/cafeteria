@@ -7,7 +7,7 @@
     
     font-size: 1.4rem;
     font-weight: 700;
-    font-family: var(--fonte-secundario);
+    font-family: var(--fonte-principal);
     text-transform: uppercase;
 
     padding-bottom: 1.3rem;
@@ -41,7 +41,7 @@
 
 .lista-produto-descricao {
     font-family: var(--fonte-principal);
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 
