@@ -1,7 +1,8 @@
 .contato {
-    background-color: var(--marrom-claro);
+    background-color: gainsboro;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .contato-titulo {
@@ -14,9 +15,16 @@
     padding-bottom: 1.3rem;
 }
 
+.contato-texto {
+    font-size: 0.9375 rem;
+    text-align: center;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
 .contato-botao {
     text-decoration: none;
-    color: var(--marrom-escuro);
+    color: #000;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;

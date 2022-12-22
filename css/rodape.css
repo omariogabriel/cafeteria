@@ -1,0 +1,34 @@
+.rodape {
+    background-color: var(--marrom-claro);
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;  
+}
+
+.cabecalho-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.rodape-logo {
+    text-decoration: none;
+    color: var(--marrom-escuro);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.rodape-icone {
+    filter: brightness(0) saturate(100%) invert(11%) sepia(40%) saturate(1101%) hue-rotate(350deg) brightness(94%) contrast(96%);
+}
+
+.lista-rodape {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-rodape{
+    font-family: var(--fonte-secundario);
+    font-weight: 700;
+}

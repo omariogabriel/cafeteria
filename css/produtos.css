@@ -33,7 +33,7 @@
 }
 
 .lista-produto-titulo {
-    font-family: 'Playfair Display', serif;;
+    font-family: var(--fonte-detalhe);
     font-size: 1.13rem;
     padding-top: .5rem;
     padding-bottom: .5rem;

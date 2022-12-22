@@ -10,11 +10,12 @@
     width: 30px;
     height: 30px;
     padding-right: .5rem;
+    filter: brightness(0) saturate(100%) invert(11%) sepia(40%) saturate(1101%) hue-rotate(350deg) brightness(94%) contrast(96%);
 }
 
 .logo {
     text-decoration: none;
-    color: var(--branco);
+    color: var(--marrom-escuro);
     font-family: var(--fonte-secundaria);
     font-weight: 600;
     font-size: 1.5rem;

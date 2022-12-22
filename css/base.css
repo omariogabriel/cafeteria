@@ -1,6 +1,7 @@
 :root {
     --fonte-principal: "Poppins";
-    --fonte-secundario: "Josefin Sans";
+    --fonte-secundario: "Montserrat";
+    --fonte-detalhe: 'Playfair Display', serif;
     
 
     --marrom-escuro: #341d08;
