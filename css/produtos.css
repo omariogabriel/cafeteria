@@ -7,7 +7,7 @@
     
     font-size: 1.4rem;
     font-weight: 700;
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-secundaria);
     text-transform: uppercase;
 
     padding-bottom: 1.3rem;
@@ -29,7 +29,7 @@
 .lista-produtos-imagem {
     text-align: center;
     width: 100%;
-    
+    max-width: 300px;
 }
 
 .lista-produto-titulo {
@@ -42,6 +42,33 @@
 .lista-produto-descricao {
     font-family: var(--fonte-principal);
     font-size: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+    .produtos-titulo {
+        font-size: 1.88rem;
+    }
+
+    .lista-produtos {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .lista-produtos-item {
+        text-align: center;
+    }
+
+    .lista-produtos-imagem {
+        width: 180px;
+    }
+
+    .lista-produto-titulo {
+        font-size: 1.19rem;
+    }
+
+    .lista-produto-descricao {
+        font-size: 0.80rem;
+    }
 }
 
 

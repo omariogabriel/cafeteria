@@ -9,12 +9,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .rodape-logo {
     text-decoration: none;
     color: var(--marrom-escuro);
+    font-family: var(--fonte-secundaria);
     font-size: 18px;
     font-weight: 700;
 }
@@ -29,6 +30,24 @@
 }
 
 .item-rodape{
-    font-family: var(--fonte-secundario);
+    font-family: var(--fonte-principal);
     font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cabecalho-rodape {
+        padding-bottom: 0;
+    }
+    
+    .lista-rodape {
+        flex-direction: column;
+        gap: 1rem;
+        border-left: 1px solid black;
+        padding-left: 11rem;
+    }
 }

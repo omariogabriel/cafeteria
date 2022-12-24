@@ -1,12 +1,16 @@
 :root {
     --fonte-principal: "Poppins";
-    --fonte-secundario: "Montserrat";
+    --fonte-secundaria: "Montserrat";
     --fonte-detalhe: 'Playfair Display', serif;
     
 
     --marrom-escuro: #341d08;
     --marrom-claro: #c08457;
     --branco: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {

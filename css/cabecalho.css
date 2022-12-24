@@ -17,10 +17,34 @@
     text-decoration: none;
     color: var(--marrom-escuro);
     font-family: var(--fonte-secundaria);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.5rem;
 }
 
 .navegacao {
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .navegacao {
+        display: block;
+    }
+
+    .divisao {
+        display: flex;
+        align-items: center;
+    }
+
+    .cabecalho {
+        justify-content: space-around;
+    }
+
+    .navegacao-lista {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .navegacao-item {
+        font-weight: 600;
+    }
 }
