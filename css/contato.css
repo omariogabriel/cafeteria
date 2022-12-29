@@ -12,14 +12,14 @@
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
 
     padding-bottom: 1.3rem;
 }
 
 .contato-texto {
-    font-size: 0.9375 rem;
+    font-size: 0.9375rem;
     text-align: center;
     line-height: 1.5rem;
     padding-bottom: 1rem;
@@ -40,6 +40,14 @@
     border-radius: 5px;
 }
 
+.mapa {
+    display: none;
+}
+
+iframe {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .contato {
         display: flex;
@@ -48,17 +56,58 @@
     }
 
     .contato-titulo {
-        font-size: 1.88rem;
+        font-size: 2.06rem;
     }
 
     .contato-texto {
-        font-size: 1.13rem;
+        font-size: 1rem;
         font-weight: 500;
         line-height: 1.8rem;
     }
 
     .contato-botao {
         width: 300px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .contato-titulo {
+        font-size: 2.19rem;
+        padding-bottom: 2.3rem;
+    }
+    .contato-texto {
+        font-size: 1.13rem;
+        font-weight: 600;
+    }
+
+    .contato-botao  {
+        transition: .3s ease;
+    }
+
+    .contato-botao:hover {
+        background-color: var(--marrom-escuro);
+        color: white;
+    }
+
+    .mapa {
+        display: block;
+    }
+
+    iframe {
+        display: block;
+    }
+
+    .informacoes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 6.25rem;
+    }
+
+    .contato-caixa {
+        border-right: 1px solid black;
+       padding-right: 5rem;
     }
 }
 

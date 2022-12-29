@@ -34,6 +34,15 @@
     font-weight: 700;
 }
 
+.navegacao-link {
+    text-decoration: none;
+    color: var(--marrom-escuro);
+}
+
+.creditos {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .rodape {
         display: flex;
@@ -49,5 +58,22 @@
         gap: 1rem;
         border-left: 1px solid black;
         padding-left: 11rem;
+    }
+
+    .creditos {
+        display: block;
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        padding: 1.5rem 0;
+    
+    }
+    .lista-rodape {
+        border: none;
+        flex-direction: row;
+        
     }
 }
